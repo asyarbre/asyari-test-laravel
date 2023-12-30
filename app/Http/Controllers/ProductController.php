@@ -13,7 +13,7 @@ class ProductController extends Controller
 
         return response()->json([
             'message' => 'Products Retrieved',
-            'products' => $products,
+            'data' => $products,
         ]);
     }
 
@@ -36,7 +36,7 @@ class ProductController extends Controller
 
         return response()->json([
             'message' => 'Product Created',
-            'product' => $product,
+            'data' => $product,
         ]);
     }
 
@@ -58,7 +58,7 @@ class ProductController extends Controller
 
         return response()->json([
             'message' => 'Product Retrieved',
-            'product' => $product,
+            'data' => $product,
         ]);
     }
 
@@ -87,7 +87,7 @@ class ProductController extends Controller
 
         return response()->json([
             'message' => 'Product Updated',
-            'product' => $product,
+            'data' => $product,
         ]);
 
 
